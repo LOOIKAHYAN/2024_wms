@@ -1,0 +1,87 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+tr {
+    text-align: left;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 3px 10px;
+}
+
+th {
+    background-color: #e9ecef;
+}
+
+td {
+    background-color: #fcfcfc;
+}
+
+/* Position the Add New Customer icon at the top right */
+.add-icon {
+    position: absolute;
+    top: 60px;
+    /* Adjust the distance from the top as needed */
+    right: 20px;
+    /* Adjust the distance from the right as needed */
+    font-size: 1em;
+    /* Adjust size as needed */
+    color: #007bff;
+    /* Customize the color */
+    text-decoration: none;
+    /* Remove underline */
+    background: #f8f9fa;
+    /* Optional: Background color for better visibility */
+    padding: 5px 10px;
+    /* Optional: Padding for spacing */
+    border-radius: 5px;
+    /* Optional: Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Optional: Shadow effect */
+}
+
+.add-icon:hover {
+    opacity: 0.8;
+    /* Slightly change opacity on hover for better UX */
+}
+
+.add-icon i {
+    margin-right: 2px;
+    /* Space between icon and text */
+}
+
+.actions {
+    text-align: left;
+}
+
+/* Style for Edit and Delete icons */
+.icon-edit {
+    color: #6161d6;
+    /* Green color for Edit icon */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 1.2em;
+    /* Adjust size as needed */
+}
+
+.icon-delete {
+    color: #F44336;
+    /* Red color for Delete icon */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 1.2em;
+    /* Adjust size as needed */
+}
+
+.icon-edit:hover,
+.icon-delete:hover {
+    opacity: 0.8;
+    /* Slightly change opacity on hover for better UX */
+}
